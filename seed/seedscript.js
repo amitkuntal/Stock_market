@@ -28,9 +28,10 @@ function createTable(tableName)
   }
   else{
     query = "create table stocks(\
+      stockid serial PRIMARY KEY,\
       symbol varchar(10) NOT NULL,\
       series text  NOT NULL,\
-       dateoflisting      date NOT NULL,\
+       date      date NOT NULL,\
        tradedqty  int,\
        deliverableqty int,\
        dlytotraded float(2),\
@@ -56,7 +57,7 @@ function createTable(tableName)
     }
     else{
       stocks.forEach(element =>{
-        query = `insert into stocks (symbol,series,dateoflisting,tradedqty,deliverableqty,dlytotraded)\
+        query = `insert into stocks (symbol,series,date,tradedqty,deliverableqty,dlytotraded)\
        values('${element["Symbol"]}','${element["Series"]}',TO_DATE('${element["Date"]}','DD-MON-YY')\
       ,${element["Traded Qty"]},${element["Deliverable Qty"]},${element["Dly Qt to Traded Qty"]});`
       inserts.push(queryExecutor(query))

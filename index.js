@@ -1,44 +1,27 @@
 var express = require('express');
 var app = express();
-const client = require('./db/db.js')
-const url = require('url')
-const queryString = require('querystring')
-client.connect()
-function showCompanies(req,res,symbol){
-    if(symbol==undefined)
-    {
-        query='select * from companyinfo'
-    }
-    else{
-        symbol=symbol.split('=')
-        query = `select * from companyinfo where symbol='${symbol[1]}'`
-    }
-    client.query(query).then((resolve)=>res.send(resolve.rows))
-}
-function stocks(req,res,symbol){
-    if(symbol==undefined)
-    {
-        query='select * from stocks'
-    }
-    else{
-        symbol=symbol.split('=')
-        query = `select * from stocks where symbol='${symbol[1]}'`
-    }
-    client.query(query).then((resolve)=>res.send(resolve.rows))
-}
-
+const api = require('./apifunctions.js');
 app.get('/', function(req, res){
-    console.log(req.url)
    res.send("Hello world!");
 });
 app.get('/companies', function(req, res){
-    urlParse = url.parse(req.url)
-    showCompanies(req,res,urlParse.query)
+    api.showAllCompanies(req,res)
 });
+app.get('/companies/:symbol', function(req, res){
+    api.showSpecificCompany(req,res,req.params.symbol)
+});
+app.put('/companies/:symbol',function(req,res){
+            api.updateCompany(req,res,req.query,req.params.symbol)
+})
 
 app.get('/stocks', function(req, res){
-    urlParse = url.parse(req.url)
-    stocks(req,res,urlParse.query)
+   api.showAllStock(req,res)
 });
+app.get('/stocks/:symbol', function(req, res){
+    api.showStockForACompany(req,res,req.params.symbol)
+});
+app.put('/stocks/:symbol',function(req,res){
+    api.updateStocks(req,res,req.query,req.params.id)
+})
 
 app.listen(3000);
