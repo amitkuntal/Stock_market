@@ -1,0 +1,1098 @@
+[
+  {
+    "Symbol": "AHLUCONT",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 79678,
+    "Deliverable Qty": 74633,
+    "Dly Qt to Traded Qty": 93.67
+  },
+  {
+    "Symbol": "AHLUCONT",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 37556,
+    "Deliverable Qty": 7092,
+    "Dly Qt to Traded Qty": 18.88
+  },
+  {
+    "Symbol": "AHLUCONT",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 7506,
+    "Deliverable Qty": 4277,
+    "Dly Qt to Traded Qty": 56.98
+  },
+  {
+    "Symbol": "AHLUCONT",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 3118,
+    "Deliverable Qty": 1814,
+    "Dly Qt to Traded Qty": 58.18
+  },
+  {
+    "Symbol": "AHLUCONT",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 6518,
+    "Deliverable Qty": 5484,
+    "Dly Qt to Traded Qty": 84.14
+  },
+  {
+    "Symbol": "ACCELYA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 10509,
+    "Deliverable Qty": 8801,
+    "Dly Qt to Traded Qty": 83.75
+  },
+  {
+    "Symbol": "ACCELYA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 4131,
+    "Deliverable Qty": 3723,
+    "Dly Qt to Traded Qty": 90.12
+  },
+  {
+    "Symbol": "ACCELYA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 1525,
+    "Deliverable Qty": 1150,
+    "Dly Qt to Traded Qty": 75.41
+  },
+  {
+    "Symbol": "ACCELYA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 3198,
+    "Deliverable Qty": 2377,
+    "Dly Qt to Traded Qty": 74.33
+  },
+  {
+    "Symbol": "ACCELYA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 2906,
+    "Deliverable Qty": 1984,
+    "Dly Qt to Traded Qty": 68.27
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 183244,
+    "Deliverable Qty": 109289,
+    "Dly Qt to Traded Qty": 59.64
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 95703,
+    "Deliverable Qty": 56998,
+    "Dly Qt to Traded Qty": 59.56
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 240508,
+    "Deliverable Qty": 181222,
+    "Dly Qt to Traded Qty": 75.35
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 485453,
+    "Deliverable Qty": 306428,
+    "Dly Qt to Traded Qty": 63.12
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 358763,
+    "Deliverable Qty": 241993,
+    "Dly Qt to Traded Qty": 67.45
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 183244,
+    "Deliverable Qty": 109289,
+    "Dly Qt to Traded Qty": 59.64
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 95703,
+    "Deliverable Qty": 56998,
+    "Dly Qt to Traded Qty": 59.56
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 240508,
+    "Deliverable Qty": 181222,
+    "Dly Qt to Traded Qty": 75.35
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 485453,
+    "Deliverable Qty": 306428,
+    "Dly Qt to Traded Qty": 63.12
+  },
+  {
+    "Symbol": "A2ZINFRA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 358763,
+    "Deliverable Qty": 241993,
+    "Dly Qt to Traded Qty": 67.45
+  },
+  {
+    "Symbol": "AARTIDRUGS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 2264,
+    "Deliverable Qty": 1620,
+    "Dly Qt to Traded Qty": 71.55
+  },
+  {
+    "Symbol": "AARTIDRUGS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 25341,
+    "Deliverable Qty": 8258,
+    "Dly Qt to Traded Qty": 32.59
+  },
+  {
+    "Symbol": "AARTIDRUGS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 9041,
+    "Deliverable Qty": 4625,
+    "Dly Qt to Traded Qty": 51.16
+  },
+  {
+    "Symbol": "AARTIDRUGS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 75188,
+    "Deliverable Qty": 66256,
+    "Dly Qt to Traded Qty": 88.12
+  },
+  {
+    "Symbol": "AARTIDRUGS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 62127,
+    "Deliverable Qty": 55312,
+    "Dly Qt to Traded Qty": 89.03
+  },
+  {
+    "Symbol": "AARTIIND",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 27154,
+    "Deliverable Qty": 19192,
+    "Dly Qt to Traded Qty": 70.68
+  },
+  {
+    "Symbol": "AARTIIND",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 42095,
+    "Deliverable Qty": 24439,
+    "Dly Qt to Traded Qty": 58.06
+  },
+  {
+    "Symbol": "AARTIIND",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 23347,
+    "Deliverable Qty": 16220,
+    "Dly Qt to Traded Qty": 69.47
+  },
+  {
+    "Symbol": "AARTIIND",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 109221,
+    "Deliverable Qty": 71149,
+    "Dly Qt to Traded Qty": 65.14
+  },
+  {
+    "Symbol": "AARTIIND",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 122929,
+    "Deliverable Qty": 95717,
+    "Dly Qt to Traded Qty": 77.86
+  },
+  {
+    "Symbol": "AARVEEDEN",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 16294,
+    "Deliverable Qty": 12463,
+    "Dly Qt to Traded Qty": 76.49
+  },
+  {
+    "Symbol": "AARVEEDEN",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 6153,
+    "Deliverable Qty": 3851,
+    "Dly Qt to Traded Qty": 62.59
+  },
+  {
+    "Symbol": "AARVEEDEN",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 9068,
+    "Deliverable Qty": 3437,
+    "Dly Qt to Traded Qty": 37.9
+  },
+  {
+    "Symbol": "AARVEEDEN",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 8494,
+    "Deliverable Qty": 3154,
+    "Dly Qt to Traded Qty": 37.13
+  },
+  {
+    "Symbol": "AARVEEDEN",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 1932,
+    "Deliverable Qty": 1459,
+    "Dly Qt to Traded Qty": 75.52
+  },
+  {
+    "Symbol": "AAVAS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 56534,
+    "Deliverable Qty": 21740,
+    "Dly Qt to Traded Qty": 38.45
+  },
+  {
+    "Symbol": "AAVAS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 16866,
+    "Deliverable Qty": 5894,
+    "Dly Qt to Traded Qty": 34.95
+  },
+  {
+    "Symbol": "AAVAS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 12953,
+    "Deliverable Qty": 8901,
+    "Dly Qt to Traded Qty": 68.72
+  },
+  {
+    "Symbol": "AAVAS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 63909,
+    "Deliverable Qty": 48782,
+    "Dly Qt to Traded Qty": 76.33
+  },
+  {
+    "Symbol": "AAVAS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 83049,
+    "Deliverable Qty": 68204,
+    "Dly Qt to Traded Qty": 82.13
+  },
+  {
+    "Symbol": "ABAN",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 24604,
+    "Deliverable Qty": 24604,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "ABAN",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 213510,
+    "Deliverable Qty": 122735,
+    "Dly Qt to Traded Qty": 57.48
+  },
+  {
+    "Symbol": "ABAN",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 123893,
+    "Deliverable Qty": 90006,
+    "Dly Qt to Traded Qty": 72.65
+  },
+  {
+    "Symbol": "ABAN",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 142019,
+    "Deliverable Qty": 95186,
+    "Dly Qt to Traded Qty": 67.02
+  },
+  {
+    "Symbol": "ABAN",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 41374,
+    "Deliverable Qty": 33366,
+    "Dly Qt to Traded Qty": 80.64
+  },
+  {
+    "Symbol": "ABB",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 28781,
+    "Deliverable Qty": 10528,
+    "Dly Qt to Traded Qty": 36.58
+  },
+  {
+    "Symbol": "ABB",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 26589,
+    "Deliverable Qty": 17343,
+    "Dly Qt to Traded Qty": 65.23
+  },
+  {
+    "Symbol": "ABB",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 19465,
+    "Deliverable Qty": 9428,
+    "Dly Qt to Traded Qty": 48.44
+  },
+  {
+    "Symbol": "ABB",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 308315,
+    "Deliverable Qty": 180920,
+    "Dly Qt to Traded Qty": 58.68
+  },
+  {
+    "Symbol": "ABB",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 716837,
+    "Deliverable Qty": 575944,
+    "Dly Qt to Traded Qty": 80.35
+  },
+  {
+    "Symbol": "ABBOTINDIA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 3220,
+    "Deliverable Qty": 2068,
+    "Dly Qt to Traded Qty": 64.22
+  },
+  {
+    "Symbol": "ABBOTINDIA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 13899,
+    "Deliverable Qty": 10376,
+    "Dly Qt to Traded Qty": 74.65
+  },
+  {
+    "Symbol": "ABBOTINDIA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 32364,
+    "Deliverable Qty": 29848,
+    "Dly Qt to Traded Qty": 92.23
+  },
+  {
+    "Symbol": "ABBOTINDIA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 43696,
+    "Deliverable Qty": 38773,
+    "Dly Qt to Traded Qty": 88.73
+  },
+  {
+    "Symbol": "ABBOTINDIA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 28089,
+    "Deliverable Qty": 23053,
+    "Dly Qt to Traded Qty": 82.07
+  },
+  {
+    "Symbol": "ABCAPITAL",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 686510,
+    "Deliverable Qty": 420753,
+    "Dly Qt to Traded Qty": 61.29
+  },
+  {
+    "Symbol": "ABCAPITAL",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 724851,
+    "Deliverable Qty": 411990,
+    "Dly Qt to Traded Qty": 56.84
+  },
+  {
+    "Symbol": "ABCAPITAL",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 830922,
+    "Deliverable Qty": 386594,
+    "Dly Qt to Traded Qty": 46.53
+  },
+  {
+    "Symbol": "ABCAPITAL",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 3242526,
+    "Deliverable Qty": 1880579,
+    "Dly Qt to Traded Qty": 58
+  },
+  {
+    "Symbol": "ABCAPITAL",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 3566984,
+    "Deliverable Qty": 2379683,
+    "Dly Qt to Traded Qty": 66.71
+  },
+  {
+    "Symbol": "ABFRL",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 202889,
+    "Deliverable Qty": 133762,
+    "Dly Qt to Traded Qty": 65.93
+  },
+  {
+    "Symbol": "ABFRL",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 423694,
+    "Deliverable Qty": 281390,
+    "Dly Qt to Traded Qty": 66.41
+  },
+  {
+    "Symbol": "ABFRL",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 205100,
+    "Deliverable Qty": 103830,
+    "Dly Qt to Traded Qty": 50.62
+  },
+  {
+    "Symbol": "ABFRL",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 507407,
+    "Deliverable Qty": 318267,
+    "Dly Qt to Traded Qty": 62.72
+  },
+  {
+    "Symbol": "ABFRL",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 921090,
+    "Deliverable Qty": 620509,
+    "Dly Qt to Traded Qty": 67.37
+  },
+  {
+    "Symbol": "ABSLNN50ET",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 2,
+    "Deliverable Qty": 2,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "ABSLNN50ET",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 5025,
+    "Deliverable Qty": 4990,
+    "Dly Qt to Traded Qty": 99.3
+  },
+  {
+    "Symbol": "ABSLNN50ET",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 123,
+    "Deliverable Qty": 123,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "ABSLNN50ET",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 284,
+    "Deliverable Qty": 233,
+    "Dly Qt to Traded Qty": 82.04
+  },
+  {
+    "Symbol": "ABSLNN50ET",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 255,
+    "Deliverable Qty": 253,
+    "Dly Qt to Traded Qty": 99.22
+  },
+  {
+    "Symbol": "ACC",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 946418,
+    "Deliverable Qty": 443743,
+    "Dly Qt to Traded Qty": 46.89
+  },
+  {
+    "Symbol": "ACC",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 693925,
+    "Deliverable Qty": 169355,
+    "Dly Qt to Traded Qty": 24.41
+  },
+  {
+    "Symbol": "ACC",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 663359,
+    "Deliverable Qty": 186074,
+    "Dly Qt to Traded Qty": 28.05
+  },
+  {
+    "Symbol": "ACC",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 1458383,
+    "Deliverable Qty": 408831,
+    "Dly Qt to Traded Qty": 28.03
+  },
+  {
+    "Symbol": "ACC",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 1116441,
+    "Deliverable Qty": 327907,
+    "Dly Qt to Traded Qty": 29.37
+  },
+  {
+    "Symbol": "ADANIGAS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 426875,
+    "Deliverable Qty": 211007,
+    "Dly Qt to Traded Qty": 49.43
+  },
+  {
+    "Symbol": "ADANIGAS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 227492,
+    "Deliverable Qty": 121224,
+    "Dly Qt to Traded Qty": 53.29
+  },
+  {
+    "Symbol": "ADANIGAS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 246618,
+    "Deliverable Qty": 124714,
+    "Dly Qt to Traded Qty": 50.57
+  },
+  {
+    "Symbol": "ADANIGAS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 1877757,
+    "Deliverable Qty": 1169168,
+    "Dly Qt to Traded Qty": 62.26
+  },
+  {
+    "Symbol": "ADANIGAS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 497130,
+    "Deliverable Qty": 263220,
+    "Dly Qt to Traded Qty": 52.95
+  },
+  {
+    "Symbol": "ADLABS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 90852,
+    "Deliverable Qty": 56906,
+    "Dly Qt to Traded Qty": 62.64
+  },
+  {
+    "Symbol": "ADLABS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 49104,
+    "Deliverable Qty": 39497,
+    "Dly Qt to Traded Qty": 80.44
+  },
+  {
+    "Symbol": "ADLABS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 92967,
+    "Deliverable Qty": 63466,
+    "Dly Qt to Traded Qty": 68.27
+  },
+  {
+    "Symbol": "ADLABS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 51153,
+    "Deliverable Qty": 40861,
+    "Dly Qt to Traded Qty": 79.88
+  },
+  {
+    "Symbol": "ADLABS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 190448,
+    "Deliverable Qty": 137529,
+    "Dly Qt to Traded Qty": 72.21
+  },
+  {
+    "Symbol": "AGLSL",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 14046,
+    "Deliverable Qty": 12821,
+    "Dly Qt to Traded Qty": 91.28
+  },
+  {
+    "Symbol": "AGLSL",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 708,
+    "Deliverable Qty": 361,
+    "Dly Qt to Traded Qty": 50.99
+  },
+  {
+    "Symbol": "AGLSL",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 3733,
+    "Deliverable Qty": 1630,
+    "Dly Qt to Traded Qty": 43.66
+  },
+  {
+    "Symbol": "AGLSL",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 4378,
+    "Deliverable Qty": 2262,
+    "Dly Qt to Traded Qty": 51.67
+  },
+  {
+    "Symbol": "AGLSL",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 1704,
+    "Deliverable Qty": 1290,
+    "Dly Qt to Traded Qty": 75.7
+  },
+  {
+    "Symbol": "AGRITECH",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 88439,
+    "Deliverable Qty": 51869,
+    "Dly Qt to Traded Qty": 58.65
+  },
+  {
+    "Symbol": "AGRITECH",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 11371,
+    "Deliverable Qty": 6385,
+    "Dly Qt to Traded Qty": 56.15
+  },
+  {
+    "Symbol": "AGRITECH",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 25089,
+    "Deliverable Qty": 16418,
+    "Dly Qt to Traded Qty": 65.44
+  },
+  {
+    "Symbol": "AGRITECH",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 21195,
+    "Deliverable Qty": 12987,
+    "Dly Qt to Traded Qty": 61.27
+  },
+  {
+    "Symbol": "AGRITECH",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 12187,
+    "Deliverable Qty": 6698,
+    "Dly Qt to Traded Qty": 54.96
+  },
+  {
+    "Symbol": "AGROPHOS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 13082,
+    "Deliverable Qty": 1216,
+    "Dly Qt to Traded Qty": 9.3
+  },
+  {
+    "Symbol": "AGROPHOS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 33524,
+    "Deliverable Qty": 7118,
+    "Dly Qt to Traded Qty": 21.23
+  },
+  {
+    "Symbol": "AGROPHOS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 55880,
+    "Deliverable Qty": 38646,
+    "Dly Qt to Traded Qty": 69.16
+  },
+  {
+    "Symbol": "AGROPHOS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 187584,
+    "Deliverable Qty": 108584,
+    "Dly Qt to Traded Qty": 57.89
+  },
+  {
+    "Symbol": "AGROPHOS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 73872,
+    "Deliverable Qty": 45514,
+    "Dly Qt to Traded Qty": 61.61
+  },
+  {
+    "Symbol": "AHLEAST",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 994,
+    "Deliverable Qty": 755,
+    "Dly Qt to Traded Qty": 75.96
+  },
+  {
+    "Symbol": "AHLEAST",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 27101,
+    "Deliverable Qty": 13843,
+    "Dly Qt to Traded Qty": 51.08
+  },
+  {
+    "Symbol": "AHLEAST",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 419,
+    "Deliverable Qty": 202,
+    "Dly Qt to Traded Qty": 48.21
+  },
+  {
+    "Symbol": "AHLEAST",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 2207,
+    "Deliverable Qty": 941,
+    "Dly Qt to Traded Qty": 42.64
+  },
+  {
+    "Symbol": "AHLEAST",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 2150,
+    "Deliverable Qty": 1342,
+    "Dly Qt to Traded Qty": 62.42
+  },
+  {
+    "Symbol": "3IINFOTECH",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 531688,
+    "Deliverable Qty": 361078,
+    "Dly Qt to Traded Qty": 67.91
+  },
+  {
+    "Symbol": "3IINFOTECH",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 910187,
+    "Deliverable Qty": 540423,
+    "Dly Qt to Traded Qty": 59.37
+  },
+  {
+    "Symbol": "3IINFOTECH",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 1586377,
+    "Deliverable Qty": 1218372,
+    "Dly Qt to Traded Qty": 76.8
+  },
+  {
+    "Symbol": "3IINFOTECH",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 3691616,
+    "Deliverable Qty": 1417208,
+    "Dly Qt to Traded Qty": 38.39
+  },
+  {
+    "Symbol": "3IINFOTECH",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 1085784,
+    "Deliverable Qty": 408956,
+    "Dly Qt to Traded Qty": 37.66
+  },
+  {
+    "Symbol": "3MINDIA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 23564,
+    "Deliverable Qty": 11728,
+    "Dly Qt to Traded Qty": 49.77
+  },
+  {
+    "Symbol": "3MINDIA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 5019,
+    "Deliverable Qty": 3423,
+    "Dly Qt to Traded Qty": 68.2
+  },
+  {
+    "Symbol": "3MINDIA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 5238,
+    "Deliverable Qty": 3581,
+    "Dly Qt to Traded Qty": 68.37
+  },
+  {
+    "Symbol": "3MINDIA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 10486,
+    "Deliverable Qty": 6974,
+    "Dly Qt to Traded Qty": 66.51
+  },
+  {
+    "Symbol": "3MINDIA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 5626,
+    "Deliverable Qty": 3906,
+    "Dly Qt to Traded Qty": 69.43
+  },
+  {
+    "Symbol": "3PLAND",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 10,
+    "Deliverable Qty": 10,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "3PLAND",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 1,
+    "Deliverable Qty": 1,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "3PLAND",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 111,
+    "Deliverable Qty": 111,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "5PAISA",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 7182,
+    "Deliverable Qty": 4693,
+    "Dly Qt to Traded Qty": 65.34
+  },
+  {
+    "Symbol": "5PAISA",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 4444,
+    "Deliverable Qty": 2474,
+    "Dly Qt to Traded Qty": 55.67
+  },
+  {
+    "Symbol": "5PAISA",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 6374,
+    "Deliverable Qty": 4964,
+    "Dly Qt to Traded Qty": 77.88
+  },
+  {
+    "Symbol": "5PAISA",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 11851,
+    "Deliverable Qty": 8205,
+    "Dly Qt to Traded Qty": 69.23
+  },
+  {
+    "Symbol": "5PAISA",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 46499,
+    "Deliverable Qty": 44440,
+    "Dly Qt to Traded Qty": 95.57
+  },
+  {
+    "Symbol": "8KMILES",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 422001,
+    "Deliverable Qty": 150558,
+    "Dly Qt to Traded Qty": 35.68
+  },
+  {
+    "Symbol": "8KMILES",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 84634,
+    "Deliverable Qty": 61090,
+    "Dly Qt to Traded Qty": 72.18
+  },
+  {
+    "Symbol": "8KMILES",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 44385,
+    "Deliverable Qty": 39359,
+    "Dly Qt to Traded Qty": 88.68
+  },
+  {
+    "Symbol": "8KMILES",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 111523,
+    "Deliverable Qty": 53357,
+    "Dly Qt to Traded Qty": 47.84
+  },
+  {
+    "Symbol": "8KMILES",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 26760,
+    "Deliverable Qty": 25952,
+    "Dly Qt to Traded Qty": 96.98
+  },
+  {
+    "Symbol": "21STCENMGM",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 4,
+    "Deliverable Qty": 4,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "21STCENMGM",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 529,
+    "Deliverable Qty": 520,
+    "Dly Qt to Traded Qty": 98.3
+  },
+  {
+    "Symbol": "21STCENMGM",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 406,
+    "Deliverable Qty": 400,
+    "Dly Qt to Traded Qty": 98.52
+  },
+  {
+    "Symbol": "21STCENMGM",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 379,
+    "Deliverable Qty": 379,
+    "Dly Qt to Traded Qty": 100
+  },
+  {
+    "Symbol": "63MOONS",
+    "Series": "EQ",
+    "Date": "17-Sep-19",
+    "Traded Qty": 615276,
+    "Deliverable Qty": 188097,
+    "Dly Qt to Traded Qty": 30.57
+  },
+  {
+    "Symbol": "63MOONS",
+    "Series": "EQ",
+    "Date": "18-Sep-19",
+    "Traded Qty": 646434,
+    "Deliverable Qty": 219055,
+    "Dly Qt to Traded Qty": 33.89
+  },
+  {
+    "Symbol": "63MOONS",
+    "Series": "EQ",
+    "Date": "19-Sep-19",
+    "Traded Qty": 280365,
+    "Deliverable Qty": 173510,
+    "Dly Qt to Traded Qty": 61.89
+  },
+  {
+    "Symbol": "63MOONS",
+    "Series": "EQ",
+    "Date": "20-Sep-19",
+    "Traded Qty": 316155,
+    "Deliverable Qty": 111903,
+    "Dly Qt to Traded Qty": 35.39
+  },
+  {
+    "Symbol": "63MOONS",
+    "Series": "EQ",
+    "Date": "23-Sep-19",
+    "Traded Qty": 223684,
+    "Deliverable Qty": 139247,
+    "Dly Qt to Traded Qty": 62.25
+  }
+]
