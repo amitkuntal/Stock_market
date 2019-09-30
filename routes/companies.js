@@ -6,6 +6,9 @@ const bodyParser = require('body-parser')
 jsonParser =  bodyParser.json()
 
 router.get('/', function(req, res){
+
+    
+    
     api.showAllCompanies()
     .then((resolve)=>res.status(200).send(resolve.rows))
     .catch((err)=> res.status(400).send(err))

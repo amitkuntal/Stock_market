@@ -16,7 +16,6 @@ function updateCompany(columns,symbol)
     if(x=='dateoflisting')
     {
      updateColumn+=`${x}=TO_DATE('${columns[x]}','DD-MON-YY'),`
-
     }
     else{
 
