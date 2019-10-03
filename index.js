@@ -17,6 +17,7 @@ app.use('/', function(req, res,next){
  jwt.verify(token,process.env.KEY,function(err,info){
   if(info)
   {
+     console.log(info)
      next()
   }
   else{
