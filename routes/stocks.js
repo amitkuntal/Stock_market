@@ -19,7 +19,7 @@ router.get("/:symbol", function(req, res, next) {
     .then((data) =>{
       if(data.rowsCount==0)
       {
-        res.status(404).send("Not  Found")
+        res.status(400).send("Stocks for this company does not exist in records")
       }
       else{
         res.status(200).send(data.rows)
@@ -32,7 +32,7 @@ router.get("/:symbol", function(req, res, next) {
 router.put("/:id", jsonParser, function(req, res, next) {
   const validate = joiSchema.schemaForUpdateStock.validate(req.body);
   if (validate.error) {
-    res.status(404).send(validate.error.details[0].message);
+    res.status(400).send(validate.error.details[0].message);
   } 
   else {
     api
@@ -44,7 +44,7 @@ router.put("/:id", jsonParser, function(req, res, next) {
 router.post("/", jsonParser, function(req, res, next) {
   const validate = joiSchema.schemaForNewStock.validate(req.body);
   if (validate.error) {
-    res.status(404).send(validate.error.details[0].message);
+    res.status(400).send(validate.error.details[0].message);
   } else {
     api
       .addStock(req.body)
@@ -58,7 +58,7 @@ router.delete("/:id", function(req, res,next) {
     .then((data) =>{
       if(data.rowCount==0)
       {
-        res.status(404).send("Not found")
+        res.status(400).send("Not found")
       }
       else{
         res.status(200).send(data)

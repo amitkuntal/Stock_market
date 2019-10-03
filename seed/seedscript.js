@@ -1,7 +1,19 @@
 const companyinfo = require('../stock_data/companyinfo.json')
 const stocks = require('../stock_data/stocks.json')
 const client = require('./../db/db.js')
-console.log(stocks.length)
+
+userinfo=[{"email":"amitkuntal1997@gmail.com",
+            "username":"Amit",
+            "password":"something",
+            "sex":"M"
+        },
+        {
+            "email":"amitkuntal1998@gmail.com",
+            "username":"Amit",
+            "password":"something",
+            "sex":"M"
+        }]
+
 function queryExecutor(query){
    return client.query(query).then((res)=>{
     console.log(query);
@@ -26,7 +38,8 @@ function createTable(tableName)
        facevalue int\
      );"
   }
-  else{
+
+  else if(tableName == 'stocks'){
     query = "create table stocks(\
       stockid serial PRIMARY KEY,\
       symbol varchar(10) NOT NULL,\
@@ -38,6 +51,14 @@ function createTable(tableName)
       FOREIGN KEY(symbol) REFERENCES companyinfo(symbol)\
       ON DELETE CASCADE\
       );"
+  }
+  else{
+    query = "CREATE TABLE userinfo(\
+      email varchar(50) PRIMARY KEY     NOT NULL,\
+        username  varchar(50)    NOT NULL,\
+        password  varchar(80)     NOT NULL,\
+        sex      text NOT NULL\
+     );"
   }
   return queryExecutor(query)
 }
@@ -55,7 +76,7 @@ function createTable(tableName)
         
      });
     }
-    else{
+    else if(tableName == 'stocks'){
       stocks.forEach(element =>{
         query = `insert into stocks (symbol,series,date,tradedqty,deliverableqty,dlytotraded)\
        values('${element["Symbol"]}','${element["Series"]}',TO_DATE('${element["Date"]}','DD-MON-YY')\
@@ -63,6 +84,14 @@ function createTable(tableName)
       inserts.push(queryExecutor(query))
       })
     }
+    else{
+      userinfo.forEach(userDetails =>{
+        query = `insert into userinfo (email,username,password,sex)\
+                values('${userDetails["email"]}','${userDetails["username"]}','${userDetails["password"]}','${userDetails["sex"]}');`
+                console.log(query)
+      inserts.push(queryExecutor(query))
+    })
+  }
   
   return Promise.all(inserts)
   
@@ -70,9 +99,12 @@ function createTable(tableName)
 
 client.connect()
   .then(() => deleteTable('stocks'))
+  .then(() => deleteTable('userinfo'))  
   .then(() => deleteTable('companyinfo'))
   .then(()=> createTable('companyinfo'))
+  .then(()=> createTable('userinfo'))
   .then(()=>createTable('stocks'))
- .then(()=> insertData("companyinfo"))
+  .then(()=> insertData("companyinfo"))
+  .then(()=> insertData("userinfo"))
   .then(()=> insertData("stocks"))
   .then(()=>client.end()).catch((err)=> console.log(err))

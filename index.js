@@ -4,11 +4,27 @@ const companies = require('./routes/companies.js')
 const stocks = require('./routes/stocks.js')
 const client = require('./db/db.js')
 const logger = require('./logger/logger.js')
+const jwt = require('jsonwebtoken');
 
-client.connect().catch((err)=> logger.info(err.message))
 
-app.get('/', function(req, res){
-   res.send("Hello world!");
+client.connect().catch((err)=> {
+   logger.error(err.message)
+   process.exit()   
+})
+
+app.use('/', function(req, res,next){
+ var token = req.query.token
+ jwt.verify(token,process.env.KEY,function(err,info){
+  if(info)
+  {
+     next()
+  }
+  else{
+  res.send(err.message)
+  }
+   
+ })
+ 
 });
 
 app.use(function(req,res,next){
@@ -20,7 +36,8 @@ app.use('/companies',companies)
 app.use('/stocks',stocks)
 
 app.use(function(err,res){
-   res.status(400).send(err.message)
+   logger.error(err.message)
+   res.status(500).send("Internal Server Error")
 })
 
 app.listen(3000);

@@ -16,8 +16,8 @@ router.get('/:symbol', function(req, res, next){
     
     api.showSpecificCompany(req.params.symbol)
     .then((data)=>{
-        if(data.rowsCount==0){
-            res.status(404).send("Not Found")
+        if(data.rowCount==0){
+            res.status(400).send("Company Does not exist in records")
         }
         else{
             res.status(200).send(data.rows)
@@ -29,7 +29,7 @@ router.put('/:symbol',jsonParser,function(req, res, next){
     const validate = joiSchema.schemaForUpdateCompany.validate(req.body)
     if(validate.error)
     {
-        res.status(404).send(validate.error.details[0].message)
+        res.status(400).send(validate.error.details[0].message)
     }
     else
     {
@@ -42,7 +42,7 @@ router.post('/',jsonParser,function(req, res, next){
     const validate = joiSchema.schemaForNewCompany.validate(req.body)
     if(validate.error)
     {
-        res.status(404).send(validate.error.details[0].message)
+        res.status(400).send(validate.error.details[0].message)
     }
     else{
     api.addCompany(req.body)
@@ -56,7 +56,7 @@ router.delete('/:symbol',function(req, res, next){
     .then((data)=>{
         if(data.rowCount == 0)
         {
-            res.status(404).send("Not Found")
+            res.status(400).send("Company does not exist in records")
         }
         else{
             res.status(200).send("Successfully deleted")
