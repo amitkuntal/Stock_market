@@ -14,10 +14,9 @@ client.connect().catch((err)=> {
 
 app.use('/', function(req, res,next){
  var token = req.query.token
- jwt.verify(token,process.env.KEY,function(err,info){
+ jwt.verify(token,'axxuYYUncbbpPOJNnk;;;fdjkijfeijfeifjeifjnfdkmfldmfldsnmflsk',function(err,info){
   if(info)
   {
-     console.log(info)
      next()
   }
   else{

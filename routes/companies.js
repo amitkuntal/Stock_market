@@ -59,7 +59,7 @@ router.delete('/:symbol',function(req, res, next){
             res.status(400).send("Company does not exist in records")
         }
         else{
-            res.status(200).send("Successfully deleted")
+            res.status(200).send(data.rows)
         }
     })
     .catch(next)

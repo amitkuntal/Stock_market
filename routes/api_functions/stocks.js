@@ -6,37 +6,41 @@ function showAllStock(){
 }
 function showStockForACompany(symbol){
     
-    query = `select * from stocks where symbol='${symbol}'`
-    return client.query(query)
+    query = `select * from stocks where symbol=$1`
+    return client.query(query,[symbol])
 }
 function updateStocks(columns,id)
 {
     updateColumn=''
+    values=[]
+    temp=1
    for (x in columns){
        if(x=='date')
        {
-        updateColumn+=`${x}=TO_DATE('${columns[x]}','DD-MON-YY'),`
+        updateColumn+=`${x}=TO_DATE($${temp},'DD-MON-YY'),`
+        values.push(columns[x])
        }
        else{
-       updateColumn+=`${x}='${columns[x]}',`
+       updateColumn+=`${x}=$${temp},`
+       values.push(columns[x])
        }
+       temp+=1
    }
    updateColumn = updateColumn.slice(0,updateColumn.length-1)
-    query = `update stocks set ${updateColumn} where stockid='${id}'`
-  return  client.query(query).then(()=>
-    client.query(`select * from stocks where stockid='${id}'`))
-}
+    values.push(id)
+    query = `update stocks set ${updateColumn} where stockid=$${temp} RETURNING *`
+   return  client.query(query,values)
+ }
 
 function addStock(stockDetails){
-    
+    values=[stockDetails["symbol"],stockDetails["series"],stockDetails["date"],stockDetails["tradedqty"],stockDetails["deliverableqty"],stockDetails["dlytotraded"]]
     query = `insert into stocks (symbol,series,date,tradedqty,deliverableqty,dlytotraded)\
-       values('${stockDetails["symbol"]}','${stockDetails["series"]}',TO_DATE('${stockDetails["date"]}','DD-MON-YY')\
-      ,${stockDetails["tradedqty"]},${stockDetails["deliverableqty"]},${stockDetails["dlytotraded"]});`
-    return client.query(query)
+       values($1,$2,TO_DATE($3,'DD-MON-YY'),$4,$5,$6) RETURNING *`
+    return client.query(query,values)
 }
 function deleteStock(id){
-    query = `delete from stocks where stockid=${id}`
-  return client.query(query)
+    query = `delete from stocks where stockid=$1 RETURNING * `
+  return client.query(query,[id])
 }
 
 module.exports={showAllStock,showStockForACompany,updateStocks,addStock,deleteStock}

@@ -5,40 +5,46 @@ function showAllCompanies(){
     return client.query(query)
 }
 function showSpecificCompany(symbol){
-    query = `select * from companyinfo where symbol='${symbol}'`
-    return client.query(query)
+    query = `select * from companyinfo where symbol=$1`
+    return client.query(query,[symbol])
 }
 
 function updateCompany(columns,symbol)
 {
     updateColumn=''
+    temp=0
+    values=[]
    for (x in columns){
     if(x=='dateoflisting')
     {
-     updateColumn+=`${x}=TO_DATE('${columns[x]}','DD-MON-YY'),`
-    }
+        updateColumn+=`${x}=TO_DATE($${temp},'DD-MON-YY'),`
+        values.push(columns[x])
+     }
     else{
 
-       updateColumn+=`${x}='${columns[x]}',`
+        updateColumn+=`${x}=$${temp},`
+        values.push(columns[x])
     }
+    temp+=1
    }
    updateColumn = updateColumn.slice(0,updateColumn.length-1)
-    query = `update companyinfo set ${updateColumn} where symbol='${symbol}'`
-    return client.query(query)
-            .then(()=>client.query(`select * from companyinfo where symbol='${symbol}'`))
+    query = `update companyinfo set ${updateColumn} where symbol=$${temp}`
+    values.push(id)
+    query = `update stocks set ${updateColumn} where stockid=$${temp} RETURNING *`
+   return  client.query(query,values)
 }
 
 function addCompany(companyDetails){
+    values=[companyDetails["symbol"],companyDetails["companyname"],companyDetails["series"],companyDetails["dateoflisting"],companyDetails["paidupvalue"]
+            ,companyDetails["marketlot"],companyDetails["isinnumber"],companyDetails["facevalue"]]
     query = `insert into companyinfo (symbol, companyname,series,dateoflisting,paidupvalue,marketlot,isinnumber,facevalue)\
-       values('${companyDetails["symbol"]}','${companyDetails["companyname"]}','${companyDetails["series"]}',TO_DATE('${companyDetails["dateoflisting"]}','DD-MON-YY')\
-      ,${companyDetails["paidupvalue"]},${companyDetails["marketlot"]},'${companyDetails["isinnumber"]}',${companyDetails["facevalue"]});`
-   return client.query(query).
-            then(()=> client.query(`select * from companyinfo where symbol = '${companyDetails['symbol']}'`))
+       values($1,$2,$3,TO_DATE('$4','DD-MON-YY'),$5,$6,$7,$8) RETURNING *`
+   return client.query(query)
      
 }
 function deleteCompany(companySymbol){
-    query = `delete from companyinfo where symbol='${companySymbol}'`
-    return client.query(query)
+    query = `delete from companyinfo where symbol=$1 RETURNING *`
+    return client.query(query,[companySymbol])
 }
 
 module.exports={showAllCompanies,showSpecificCompany,updateCompany,addCompany,deleteCompany}

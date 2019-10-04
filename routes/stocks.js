@@ -48,7 +48,7 @@ router.post("/", jsonParser, function(req, res, next) {
   } else {
     api
       .addStock(req.body)
-      .then(data => res.status(200).send(data))
+      .then(data => res.status(200).send(data.rows))
       .catch(next);
   }
 });
@@ -61,7 +61,7 @@ router.delete("/:id", function(req, res,next) {
         res.status(400).send("Not found")
       }
       else{
-        res.status(200).send(data)
+        res.status(200).send(data.rows)
       }
     } 
 ).catch(next);
